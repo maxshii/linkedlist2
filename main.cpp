@@ -11,6 +11,6 @@ int main() {
   n->setNext(n2);
 
   std::cout  << "First node student name: " <<(n->getStudent()->first);
-  std::cout  << "\nFirst node next student name: " <<(n->getNext()->getStudent()->first);
+  std::cout  << "\nF irst node next student name: " <<(n->getNext()->getStudent()->first);
 
 } 
