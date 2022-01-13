@@ -14,6 +14,6 @@ class Node
     Student* getStudent();
     void setNext(Node* n);
   private:
-    Student* student; //poiner to student
+    Student* student; //pointer to student
     Node* next; //pointer to next node
 };
