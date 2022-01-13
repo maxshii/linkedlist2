@@ -10,7 +10,9 @@ int main() {
   Node* n2 = new Node(joe);
   n->setNext(n2);
 
-  std::cout  << "First node student name: " <<(n->getStudent()->first);
-  std::cout  << "\nF irst node next student name: " <<(n->getNext()->getStudent()->first);
+  std::cout  << "First node student name: " <<(n->getStudent()->first) << "\nFirst node next: " << n->getNext();
+  std::cout  << "\nFirst node next student name: " <<(n->getNext()->getStudent()->first);
+
+  delete n;
 
 } 
