@@ -1,5 +1,6 @@
 /*
- *File for node class. Contains a pointer to a student and a node. Contains functions *to access student and node
+ *File for node class. Contains a pointer to a student and a node. Contains functions 
+ *to access student and node
  *Max Shi
  */
 
